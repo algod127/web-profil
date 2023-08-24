@@ -1,0 +1,58 @@
+html,body {
+  padding: 0;
+  margin: 0;
+  font-family: Monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 505px;
+  height: 100vh;
+  margin:0 auto;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 15px;
+}
+.card img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin:0 auto;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  white-space: 90%;
+  gap: 8px;
+}
+.link a {
+  background-color: #d3d3d3;
+  border: none;
+  padding: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 400ms ease-in-out;
+  text-decoration: none;
+  color: black;
+  width: 100px;
+  margin:0 auto;
+  border-radius: 8%;
+}
+.link a:hover {
+  background-color: #333333;
+  color: white;
+}
